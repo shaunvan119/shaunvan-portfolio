@@ -12,6 +12,8 @@ const Projects = () => (
     <SectionDivider/>
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
+
+    {/*change links and titles for the projects in the constants.js folder, images are in the public folder*/}
       {projects.map(({id, image, title, description, tags, source, visit}) => (
         <BlogCard key={id}>
          <Img src={image}/>
@@ -20,6 +22,18 @@ const Projects = () => (
            <Hr/>
          </TitleContent>
          <CardInfo>{description}</CardInfo>
+         <div>
+           <TitleContent>Stack</TitleContent>
+           <TagList>
+             {tags.map((tag, i) => (
+               <Tag key={i}>{tag}</Tag>
+             ))}
+           </TagList>
+         </div>
+         <UtilityList>
+            <ExternalLinks href={visit}>Code</ExternalLinks>
+            <ExternalLinks href={visit}>source</ExternalLinks>
+         </UtilityList>
         </BlogCard>
       ))}
     </GridContainer>
