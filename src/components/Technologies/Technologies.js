@@ -1,5 +1,6 @@
 import React from 'react';
 import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { FiFigma} from 'react-icons/fi';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -9,7 +10,7 @@ const Technologies = () =>  (
   <br/>
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a  range of tech stacks in the web dev world from front end to back end design
+      I've worked with a range of tech stacks in the web dev world from front end to back end design
     </SectionText>
     <List>
       <ListItem>
@@ -21,19 +22,20 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiZend size="3rem"/>
+        <DiFirebase size="3rem"/>
+        <ListContainer>
+          <ListTitle>Backend</ListTitle>
+          <ListParagraph>Experaicne with <br/>Node.js and data<br/> bases</ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <FiFigma size="3rem"/>
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>Experaicne with <br/>UI/UX</ListParagraph>
         </ListContainer>
       </ListItem>
-      <ListItem>
-        <DiFirebase size="3rem"/>
-        <ListContainer>
-          <ListTitle>Front End</ListTitle>
-          <ListParagraph>Experaicne with <br/>Node.js and data<br/> bases</ListParagraph>
-        </ListContainer>
-      </ListItem>
+      
     </List>
   </Section>
 );

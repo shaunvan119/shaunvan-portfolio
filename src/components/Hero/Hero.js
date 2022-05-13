@@ -9,10 +9,10 @@ const Hero = (props) => (
     <LeftSection>
       <SectionTitle main center>
         Welcome To<br/>
-        My Personal Portfolio
+        SLV Developments
       </SectionTitle>
       <SectionText>
-        Software Engineering | Frontend Developer | Backend | React Developer | Next js | JavaScript
+        Software Engineering | Frontend Developer | Backend | React Developer | Next js | JavaScript | CSS | HTML | UI/UX
       </SectionText>
       <Button onClick={() => window.location = 'https://www.linkedin.com/in/shaun-van-amersfoort-80b7b7194/'}>Learn More</Button>
     </LeftSection>

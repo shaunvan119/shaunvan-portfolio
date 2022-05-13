@@ -10,7 +10,7 @@ import { projects } from '../../constants/constants';
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider/>
-    <SectionTitle main>Projects</SectionTitle>
+    <SectionTitle main>Portfolio</SectionTitle>
     <GridContainer>
 
     {/*change links and titles for the projects in the constants.js folder, images are in the public folder*/}

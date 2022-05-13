@@ -1,3 +1,10 @@
+import { SiJavascript, SiAdobephotoshop, SiMaterialui, SiMongodb, SiFirebase} from 'react-icons/si';
+import { DiHtml5, DiCss3, DiReact, DiGithubBadge, DiGitBranch} from 'react-icons/di';
+import { FiFigma} from 'react-icons/fi';
+import {BiCog} from 'react-icons/bi';
+
+
+
 export const projects = [
   {
     title: 'MERN Memories',
@@ -38,9 +45,21 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  //{ year: 2017, text: 'Started my journey', },
+  //{ year: 2018, text: 'Worked as a freelance developer', },
+  //{ year: 2019, text: 'Founded JavaScript Mastery', },
+  //{ year: 2020, text: 'Shared my projects with the world', },
+  //{ year: 2021, text: 'Started my own platform', },
+  { logo: <SiJavascript size="3rem" color='yellow'/>, text: 'JavaScript', },
+  { logo: <DiHtml5 size="3rem" color='#e34c26'/>, text: 'HTML', },
+  { logo: <DiCss3 size="3rem" color='#2965f1'/>, text: 'CSS', },
+  { logo: <SiMaterialui size="3rem" color='#757de8'/>, text: 'Material UI', },
+  { logo: <FiFigma size="3rem" color='orange'/>, text: 'Figma', },
+  { logo: <SiAdobephotoshop size="3rem" />, text: 'Adobe photoshop', },
+  { logo: <DiReact size="3rem" color='#61dbfb'/>, text: 'React.js', },
+  { logo: <DiGithubBadge size="3rem"/>, text: 'github', },
+  { logo: <DiGitBranch size="3rem" color='orange'/>, text: 'git', },
+  { logo: <SiMongodb size="3rem" color='#4db33d'/>, text: 'MongoDB', },
+  { logo: <SiFirebase size="3rem" color='#FFCB2B'/>, text: 'Firebase', },
+  { logo: <BiCog size="3rem"/>, text: 'Api', }
 ];

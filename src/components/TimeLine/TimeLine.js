@@ -59,9 +59,10 @@ const Timeline = () => {
             onClick={(e) => handleClick(e, index)}
             >
             <CarouselItemTitle>
-              {item.year}
+              
            
             <CarouselItemImg
+            
                     width="208"
                     height="6"
                     viewBox="0 0 208 6"
@@ -92,6 +93,8 @@ const Timeline = () => {
                     </defs>
                   </CarouselItemImg>
              </CarouselItemTitle>
+             {item.logo}
+             
             <CarouselItemText>{item.text}</CarouselItemText>
             </CarouselItem>
           </CarouselMobileScrollNode>
