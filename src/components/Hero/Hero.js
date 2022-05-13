@@ -14,9 +14,11 @@ const Hero = (props) => (
       <SectionText>
         Software Engineering | Frontend Developer | Backend | React Developer | Next js | JavaScript | CSS | HTML | UI/UX
       </SectionText>
-      <Button onClick={() => window.location = 'https://www.linkedin.com/in/shaun-van-amersfoort-80b7b7194/'}>Learn More</Button>
+      <Button onClick={() => window.location = 'mailto:shaunvan@hotmail.com'}>More info</Button>
     </LeftSection>
   </Section>
 );
+
+
 
 export default Hero;
