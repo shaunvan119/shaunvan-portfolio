@@ -7,12 +7,12 @@ import {BiCog} from 'react-icons/bi';
 
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Rock paper scissors',
+    description: "As part of a front end mentor challenge i was given a figma file and used HTML, CSS and JavaScript to complete the challenge.",
+      image: '/images/rockpaper.png',
+      tags: ['HTML', 'CSS', 'JAVASCRIPT'],
+    source: 'https://github.com/shaunvan119/rock-paper-scissors',
+    visit: 'https://shaunvan119.github.io/rock-paper-scissors/',
     id: 0,
   },
   {
