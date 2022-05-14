@@ -16,12 +16,12 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Game of war card game',
+    description:"Game of war card game using HTML, CSS, JAVASCRIPT and deck of cards API to fetch new deck of gards.",
+    image: '/images/wargame.png',
+    tags: ['HTML', 'CSS', 'JAVASCRIPT', 'DECK OF CARDS API'],
+    source: 'https://shaunvan119.github.io/war-card-game/',
+    visit: 'https://github.com/shaunvan119/war-card-game',
     id: 1,
   },
   {
@@ -45,11 +45,7 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  //{ year: 2017, text: 'Started my journey', },
-  //{ year: 2018, text: 'Worked as a freelance developer', },
-  //{ year: 2019, text: 'Founded JavaScript Mastery', },
-  //{ year: 2020, text: 'Shared my projects with the world', },
-  //{ year: 2021, text: 'Started my own platform', },
+  
   { logo: <SiJavascript size="3rem" color='yellow'/>, text: 'JavaScript', },
   { logo: <DiHtml5 size="3rem" color='#e34c26'/>, text: 'HTML', },
   { logo: <DiCss3 size="3rem" color='#2965f1'/>, text: 'CSS', },
